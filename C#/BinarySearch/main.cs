@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace csharp_tutorial
+namespace ImThinkingOfANumber
 {
     class MainClass
     {
@@ -9,6 +9,7 @@ namespace csharp_tutorial
         {
             Random rnd = new Random();
             Console.WriteLine("Hello Mum\n");
+
             Console.Write("Please enter a whole number from 1-100: ");
 
             //int number = Convert.ToInt32(Console.ReadLine());
@@ -18,6 +19,19 @@ namespace csharp_tutorial
             {
                 if (int.TryParse(Console.ReadLine(), out number))
                 {
+                    while (number >= 101)
+                    {
+                        Console.WriteLine("Invalid Number.\nPlease enter a whole number from 1-100: ");
+                        while (true)
+                            if (int.TryParse(Console.ReadLine(), out number))
+                            {
+                                break;
+                            }
+                            else
+                            {
+                                Console.WriteLine("\nPlease enter a proper whole number: ");
+                            }
+                    }
                     break;
                 }
                 else
@@ -25,7 +39,7 @@ namespace csharp_tutorial
                     Console.Write("\nPlease enter a proper whole number: ");
                 }
             }
-            int computerNumber = rnd.Next(1, 100);
+            double computerNumber = rnd.Next(1, 100);
 
             Console.WriteLine("");
 
@@ -66,6 +80,19 @@ namespace csharp_tutorial
             {
                 if (int.TryParse(Console.ReadLine(), out number))
                 {
+                    while(number >= 101)
+                    {
+                     Console.WriteLine("Invalid Number.\nPlease enter a whole number from 1-100: ");
+                        while(true)
+                         if(int.TryParse(Console.ReadLine(), out number))
+                            {
+                                break;
+                            }
+                         else
+                            {
+                                Console.WriteLine("\nPlease enter a proper whole number: ");
+                            }
+                    }
                     break;
                 }
                 else
@@ -74,11 +101,17 @@ namespace csharp_tutorial
                 }
             }
 
-            computerNumber = Convert.ToInt32(rnd.Next(1, 100));
+            //computerNumber = Convert.ToInt32(rnd.Next(1, 100));
             int tries = 0;
+            double max = 100;
+            double min = 1;
             string triesNumber = "try";
+
+            computerNumber = (min + max) / 2;
+            computerNumber = Math.Floor(computerNumber);
             do
             {
+                
                 if (computerNumber == number)
                 {
                     Console.WriteLine("The computer guessed correct");
@@ -88,23 +121,57 @@ namespace csharp_tutorial
                 else if (computerNumber > number)
                 {
                     Console.WriteLine("The computer guessed too high");
-                    computerNumber /= 2;
+                    Console.WriteLine(computerNumber);
+                    //computerNumber = ((1 + (computerNumber - 1) / 2));
+                    // computerNumber = Math.Floor(computerNumber);
+                    max = computerNumber - 1.0;
+                    computerNumber = (min + max) / 2;
+                    computerNumber = Math.Floor(computerNumber);
+
                     tries++;
                 }
 
                 else if (computerNumber < number)
                 {
                     Console.WriteLine("The computer guessed too low");
-                    computerNumber = computerNumber/2 + computerNumber;
+                    Console.WriteLine(computerNumber);
+                    // int max = computerNumber;
+                    // computerNumber = computerNumber + 1;
+                    // computerNumber = Math.Floor(computerNumber);
+                    min = computerNumber+1;
+                    computerNumber = (min + max) / 2;
+                    computerNumber = Math.Floor(computerNumber);
                     tries++;
                 }
                 else if (number < 100 || number > 0)
                 {
-                    Console.WriteLine("Invalid Response");
+                    Console.Write("\nInvalid Response.\nPlease Re-enter a number between 1-100 again: ");
+                    while (true)
+                    {
+                        if (int.TryParse(Console.ReadLine(), out number))
+                        {
+                            break;
+                        }
+                        else
+                        {
+                            Console.Write("\nPlease enter a proper whole number: ");
+                        }
+                    }
                 }
                 else
                 {
-                    Console.WriteLine("Invalid Response");
+                    Console.Write("\nInvalid Response.\nPlease Re-enter a number betwenn 1-100 again: ");
+                    while (true)
+                    {
+                        if (int.TryParse(Console.ReadLine(), out number))
+                        {
+                            break;
+                        }
+                        else
+                        {
+                            Console.Write("\nPlease enter a proper whole number: ");
+                        }
+                    }
                 }
             }
             while (computerNumber != number);
