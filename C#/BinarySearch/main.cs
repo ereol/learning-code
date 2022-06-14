@@ -67,7 +67,7 @@ namespace ImThinkingOfANumber
             }
             Console.Write("\nIt was " + computerNumber + "\nPress Enter to continue: ");
 
-            while (Console.ReadKey().Key != ConsoleKey.Enter);
+            while (Console.ReadKey().Key != ConsoleKey.Enter)
             { }
 
             Console.Clear();
@@ -185,7 +185,7 @@ namespace ImThinkingOfANumber
                 triesNumber = " try.";
             }
             Console.WriteLine("\nThe computer found your number.\nIt was " + computerNumber +"\nIt took "+ tries + triesNumber + "\n\nThanks for playing!\nPress Enter to continue: ");
-            while (Console.ReadKey().Key != ConsoleKey.Enter);
+            while (Console.ReadKey().Key != ConsoleKey.Enter)
             { }
 
         }
