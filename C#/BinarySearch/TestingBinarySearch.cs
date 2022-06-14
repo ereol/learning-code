@@ -2,10 +2,8 @@ using System;
 
 namespace TestingBinarySearch
 {
-    class MainClass
+    class TestBinary
     {
-        public static void Main(string[] args)
-        {
             int number;
             int tries = 0;
             double max = 100;
