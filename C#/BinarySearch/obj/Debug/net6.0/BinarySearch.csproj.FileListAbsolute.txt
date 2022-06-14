@@ -1,0 +1,15 @@
+/Users/morro/Documents/Personal/Coding/learning-code/C#/BinarySearch/obj/Debug/net6.0/BinarySearch.csproj.AssemblyReference.cache
+/Users/morro/Documents/Personal/Coding/learning-code/C#/BinarySearch/obj/Debug/net6.0/BinarySearch.GeneratedMSBuildEditorConfig.editorconfig
+/Users/morro/Documents/Personal/Coding/learning-code/C#/BinarySearch/obj/Debug/net6.0/BinarySearch.AssemblyInfoInputs.cache
+/Users/morro/Documents/Personal/Coding/learning-code/C#/BinarySearch/obj/Debug/net6.0/BinarySearch.AssemblyInfo.cs
+/Users/morro/Documents/Personal/Coding/learning-code/C#/BinarySearch/obj/Debug/net6.0/BinarySearch.csproj.CoreCompileInputs.cache
+/Users/morro/Documents/Personal/Coding/learning-code/C#/BinarySearch/bin/Debug/net6.0/BinarySearch
+/Users/morro/Documents/Personal/Coding/learning-code/C#/BinarySearch/bin/Debug/net6.0/BinarySearch.deps.json
+/Users/morro/Documents/Personal/Coding/learning-code/C#/BinarySearch/bin/Debug/net6.0/BinarySearch.runtimeconfig.json
+/Users/morro/Documents/Personal/Coding/learning-code/C#/BinarySearch/bin/Debug/net6.0/BinarySearch.dll
+/Users/morro/Documents/Personal/Coding/learning-code/C#/BinarySearch/bin/Debug/net6.0/BinarySearch.pdb
+/Users/morro/Documents/Personal/Coding/learning-code/C#/BinarySearch/obj/Debug/net6.0/BinarySearch.dll
+/Users/morro/Documents/Personal/Coding/learning-code/C#/BinarySearch/obj/Debug/net6.0/refint/BinarySearch.dll
+/Users/morro/Documents/Personal/Coding/learning-code/C#/BinarySearch/obj/Debug/net6.0/BinarySearch.pdb
+/Users/morro/Documents/Personal/Coding/learning-code/C#/BinarySearch/obj/Debug/net6.0/BinarySearch.genruntimeconfig.cache
+/Users/morro/Documents/Personal/Coding/learning-code/C#/BinarySearch/obj/Debug/net6.0/ref/BinarySearch.dll
