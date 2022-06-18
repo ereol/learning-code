@@ -9,17 +9,27 @@ string b = "\n|   /|\\";
 string a = "\n|   / \\";
 string g = "\n ______\n";
 
-Console.WriteLine(f);
-Console.Write(e);
-Console.Write(d);
-Console.Write(c);
-Console.Write(b);
-Console.Write(a);
-Console.Write(g);
+// Console.WriteLine(f);
+// Console.Write(e);
+// Console.Write(d);
+// Console.Write(c);
+// Console.Write(b);
+// Console.Write(a);
+// Console.Write(g);
 
 
+string word = new string;
+int option = 0;
 
-for(lengthWord = 0, lengthWord < wordLength, )
+
+switch (option)
+{
+    case 1:
+
+}
+
+
+for(lengthWord = 0, lengthWord < word.Length, lengthWord++ )
 
 
 
