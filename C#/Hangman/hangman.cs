@@ -18,19 +18,21 @@ string g = "\n ______\n";
 // Console.Write(g);
 
 
-string word = new string;
+
+string word;
 int option = 0;
 
+Console.Write("Welcome to the Hangman Game");
+System.Threading.Thread.Sleep(5000);
+Console.Clear();
+Console.Write("Please enter a word: ")
+word = Console.ReadLine();
 
-switch (option)
-{
-    case 1:
 
-}
+// for(lengthWord = 0, lengthWord < word.Length, lengthWord++);
+// {
 
-
-for(lengthWord = 0, lengthWord < word.Length, lengthWord++ )
-
+// }
 
 
 
