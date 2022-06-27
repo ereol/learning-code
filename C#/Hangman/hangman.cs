@@ -75,7 +75,7 @@ return 0;
 
 
 
-public string gameStatement()
+public string gameStatement(tries)
 {
     switch(tries)
     {
