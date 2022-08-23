@@ -1,12 +1,15 @@
 ﻿// See https://aka.ms/new-console-template for more information
 DateTime dt = DateTime.UtcNow;
+DateTime setTime = new System.DateTime(01,01,01);
 string dtUtc = dt.ToString("HH:mm"); 
-int time = 0;
+int time = (-1);
 int Date = Convert.ToInt32(dt.DayOfWeek);
+DateTime timeResult;
 var SystemTime = DateTime.Now.ToString("HH:mm");
 string SystemDay = DateTime.UtcNow.Date.ToString("dd/MM/yyyy");
-string SystemHour = DateTime.UtcNow.ToString("HH:mm:ss");
+string SystemHour = DateTime.UtcNow.ToString("HH:mm");
 string Monster = "N/A";
+
 Console.WriteLine("BDO MENU");
 Console.WriteLine("Time now is: " + SystemTime);
 
@@ -14,6 +17,7 @@ switch(dtUtc)
 {
         case "14:00":
             time = 0;
+
             break;
         case "17:00":
             time = 1;
@@ -40,6 +44,8 @@ switch(dtUtc)
             time = 8;
             break;
         default:
+            time = 8;
+            setTime = (10, 00, 00);
 
             break;
 }
