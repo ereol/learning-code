@@ -5,7 +5,7 @@ int Date = Convert.ToInt32(dt.DayOfWeek);
 var SystemTime = DateTime.Now.ToString("HH:mm");
 string SystemDay = DateTime.UtcNow.Date.ToString("dd/MM/yyyy");
 string SystemHour = DateTime.UtcNow.ToString("HH:mm:ss");
-string Monster = (" ");
+string Monster = "N/A";
 Console.WriteLine("BDO MENU");
 Console.WriteLine("Time now is: " + Convert.ToString(SystemTime));
 
@@ -240,8 +240,8 @@ case 5:
             break;
         default:
             break;
-    break;
     }
+break;
 case 6:
     switch(time)
     {
@@ -273,8 +273,8 @@ case 6:
             break;
         default:
             break;
-    break;
     }
+break;
 }
 
 

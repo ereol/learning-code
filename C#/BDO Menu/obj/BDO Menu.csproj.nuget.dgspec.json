@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desktop\\Personal\\Private\\Coding\\learning-code\\C#\\BDO Menu\\BDO Menu.csproj": {}
+    "/Users/morro/Documents/Personal/Coding/learning-code/C#/BDO Menu/BDO Menu.csproj": {}
   },
   "projects": {
-    "D:\\Desktop\\Personal\\Private\\Coding\\learning-code\\C#\\BDO Menu\\BDO Menu.csproj": {
+    "/Users/morro/Documents/Personal/Coding/learning-code/C#/BDO Menu/BDO Menu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\Personal\\Private\\Coding\\learning-code\\C#\\BDO Menu\\BDO Menu.csproj",
+        "projectUniqueName": "/Users/morro/Documents/Personal/Coding/learning-code/C#/BDO Menu/BDO Menu.csproj",
         "projectName": "BDO Menu",
-        "projectPath": "D:\\Desktop\\Personal\\Private\\Coding\\learning-code\\C#\\BDO Menu\\BDO Menu.csproj",
-        "packagesPath": "C:\\Users\\morri\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\Personal\\Private\\Coding\\learning-code\\C#\\BDO Menu\\obj\\",
+        "projectPath": "/Users/morro/Documents/Personal/Coding/learning-code/C#/BDO Menu/BDO Menu.csproj",
+        "packagesPath": "/Users/morro/.nuget/packages/",
+        "outputPath": "/Users/morro/Documents/Personal/Coding/learning-code/C#/BDO Menu/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\morri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/morro/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
         }
       }
     }
