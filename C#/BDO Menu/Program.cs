@@ -5,7 +5,7 @@ int Date = Convert.ToInt32(dt.DayOfWeek);
 var SystemTime = DateTime.Now.ToString("HH:mm");
 string SystemDay = DateTime.UtcNow.Date.ToString("dd/MM/yyyy");
 string SystemHour = DateTime.UtcNow.ToString("HH:mm:ss");
-string Monster = ("");
+string Monster = (" ");
 Console.WriteLine("BDO MENU");
 Console.WriteLine("Time now is: " + Convert.ToString(SystemTime));
 
