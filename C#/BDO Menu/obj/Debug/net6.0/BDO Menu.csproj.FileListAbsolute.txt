@@ -1,0 +1,15 @@
+D:\Desktop\Personal\Private\Coding\learning-code\C#\BDO Menu\obj\Debug\net6.0\BDO Menu.csproj.AssemblyReference.cache
+D:\Desktop\Personal\Private\Coding\learning-code\C#\BDO Menu\obj\Debug\net6.0\BDO Menu.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Personal\Private\Coding\learning-code\C#\BDO Menu\obj\Debug\net6.0\BDO Menu.AssemblyInfoInputs.cache
+D:\Desktop\Personal\Private\Coding\learning-code\C#\BDO Menu\obj\Debug\net6.0\BDO Menu.AssemblyInfo.cs
+D:\Desktop\Personal\Private\Coding\learning-code\C#\BDO Menu\obj\Debug\net6.0\BDO Menu.csproj.CoreCompileInputs.cache
+D:\Desktop\Personal\Private\Coding\learning-code\C#\BDO Menu\bin\Debug\net6.0\BDO Menu.exe
+D:\Desktop\Personal\Private\Coding\learning-code\C#\BDO Menu\bin\Debug\net6.0\BDO Menu.deps.json
+D:\Desktop\Personal\Private\Coding\learning-code\C#\BDO Menu\bin\Debug\net6.0\BDO Menu.runtimeconfig.json
+D:\Desktop\Personal\Private\Coding\learning-code\C#\BDO Menu\bin\Debug\net6.0\BDO Menu.dll
+D:\Desktop\Personal\Private\Coding\learning-code\C#\BDO Menu\bin\Debug\net6.0\BDO Menu.pdb
+D:\Desktop\Personal\Private\Coding\learning-code\C#\BDO Menu\obj\Debug\net6.0\BDO Menu.dll
+D:\Desktop\Personal\Private\Coding\learning-code\C#\BDO Menu\obj\Debug\net6.0\refint\BDO Menu.dll
+D:\Desktop\Personal\Private\Coding\learning-code\C#\BDO Menu\obj\Debug\net6.0\BDO Menu.pdb
+D:\Desktop\Personal\Private\Coding\learning-code\C#\BDO Menu\obj\Debug\net6.0\BDO Menu.genruntimeconfig.cache
+D:\Desktop\Personal\Private\Coding\learning-code\C#\BDO Menu\obj\Debug\net6.0\ref\BDO Menu.dll
