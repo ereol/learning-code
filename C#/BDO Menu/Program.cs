@@ -241,7 +241,6 @@ case 5:
         default:
             break;
     }
-break;
 case 6:
     switch(time)
     {
