@@ -31,6 +31,7 @@ namespace BDOMenu
                                     break;
 
                                     case 2:
+                                    Console.Clear();
                                     continue;
 
                                     case 3:
