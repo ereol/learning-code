@@ -409,10 +409,7 @@ namespace BDOMenu
                         Console.Clear();
 
                     }
-                private void timer_Tick(object sender, EventArgs e)
-                    {
-                        //refresh here...
-                    }
+                
             }
         
     }
