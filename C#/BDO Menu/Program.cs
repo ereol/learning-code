@@ -37,6 +37,12 @@ namespace BDOMenu
                                     case 3:
                                     Environment.Exit(0);
                                     break;
+
+                                    default:
+                                    Console.WriteLine("Entry not valid. Please press enter to continue.");
+                                    Console.ReadKey();
+                                    Console.Clear();
+                                    continue;
                                 }
                         }   
                 }
