@@ -354,7 +354,7 @@ namespace BDOMenu
                         }
 
                         var ResultsMString = ResultsM.ToString("00");
-                        string output = ("Next boss is " + Monster + ".\nIt will appear in " + ResultsH + " h " + ResultsM + " m " + ResultsS +"s.");
+                        string output = ("Next boss is " + Monster + ".\nIt will appear in " + ResultsH + "h " + ResultsM + "m " + ResultsS +"s.");
 
                         if (ResultsM < 10)
                         {
