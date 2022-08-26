@@ -8,7 +8,7 @@ namespace BDOMenu
                 public static void Main(string[] args)
                 {
                     while(true)  
-                        {
+                        {   
                             DateTime dt = DateTime.UtcNow;
                             DateTime setTime = new System.DateTime(01,01,01);
                             string dtUtc = dt.ToString("HH:mm"); 
@@ -408,6 +408,10 @@ namespace BDOMenu
                         Console.ReadKey();
                         Console.Clear();
 
+                    }
+                private void timer_Tick(object sender, EventArgs e)
+                    {
+                        //refresh here...
                     }
             }
         
