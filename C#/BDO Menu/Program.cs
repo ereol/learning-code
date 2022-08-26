@@ -406,6 +406,7 @@ namespace BDOMenu
                         string output = String.Format("\nThe total price of your product is ${0:C2}\nPress any key to continue...", Convert.ToInt32(value));
                         Console.Write(output);
                         Console.ReadKey();
+                        Console.Clear();
 
                     }
             }
