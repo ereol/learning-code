@@ -46,7 +46,7 @@ namespace BDOMenu
                 static string TimeTable(int Date)
                     {
                         DateTime currentTime = DateTime.UtcNow;
-                        string currentTimeHourToString = currentTime.ToString("hh");
+                        string currentTimeHourToString = currentTime.ToString("HH");
                             int CTTI = Convert.ToInt32(currentTimeHourToString);
                         string currentTimeMinuteToString = currentTime.ToString("mm");
                             int CTMI = Convert.ToInt32(currentTimeMinuteToString);
@@ -62,27 +62,27 @@ namespace BDOMenu
                         {
                             case var expresson when (17 > CTTI && CTTI >= 14):
                                 ResultsH = (16 - CTTI);
-                                ResultsM = (60 - CTMI);
+                                ResultsM = (59 - CTMI);
                                 time = 1;
                                 break;
                             case var expresson when (21 > CTTI && CTTI >= 17):
                                 ResultsH = 20 - CTTI;
-                                ResultsM = 60 - CTMI;
+                                ResultsM = 59 - CTMI;
                                 time = 2;
                                 break;
                             case var expresson when (24 > CTTI && CTTI >= 21):
                                 ResultsH = 23 - CTTI;
-                                ResultsM = 60 - CTMI;
+                                ResultsM = 59 - CTMI;
                                 time = 3;
                                 break;
-                            case var expresson when (03 > CTTI && CTTI >= 24):
+                            case var expresson when (03 > CTTI || CTTI >= 24):
                                 ResultsH = 02 - CTTI;
-                                ResultsM = 60 - CTMI;
+                                ResultsM = 59 - CTMI;
                                 time = 4;
                                 break;
                             case var expresson when (04 > CTTI && CTTI >= 03):
                                 ResultsH = 03 - CTTI;
-                                ResultsM = (15 - CTMI);
+                                ResultsM = (14 - CTMI);
                                     if (CTTI == 15)
                                     {
                                         time = 5;
@@ -92,7 +92,7 @@ namespace BDOMenu
                                 break;
                             case var expresson when (05 > CTTI && CTTI >= 04):
                                 ResultsH = 04 - CTTI;
-                                ResultsM = 15 - CTMI;
+                                ResultsM = 14 - CTMI;
                                     if (CTTI == 15)
                                     {
                                         time = 6;
@@ -100,7 +100,7 @@ namespace BDOMenu
                                 break;
                             case var expresson when (07 > CTTI && CTTI >= 05):
                                 ResultsH = 06 - CTTI;
-                                ResultsM = 15 - CTMI;
+                                ResultsM = 14 - CTMI;
                                     if (CTTI == 15)
                                     {
                                         time = 7;
@@ -108,12 +108,12 @@ namespace BDOMenu
                                 break;
                             case var expresson when (10 > CTTI && CTTI >= 07):
                                 ResultsH = 09 - CTTI;
-                                ResultsM = 60 - CTMI;
+                                ResultsM = 59 - CTMI;
                                 time = 8;
                                 break;
                             case var expresson when (14 > CTTI && CTTI >= 10):
                                 ResultsH = (13 - CTTI);
-                                ResultsM = (60 - CTMI);
+                                ResultsM = (59 - CTMI);
                                 time = 0;
                                 break;
                         }
@@ -354,11 +354,11 @@ namespace BDOMenu
                         }
 
                         var ResultsMString = ResultsM.ToString("00");
-                        string output = ("Next boss is " + Monster + ".\nIt will appear in " + ResultsH + " h " + ResultsM + " m " + ResultsS +" s.");
+                        string output = ("Next boss is " + Monster + ".\nIt will appear in " + ResultsH + " h " + ResultsM + " m " + ResultsS +"s.");
 
                         if (ResultsM < 10)
                         {
-                            output = ("Next boss is " + Monster + ".\nIt will appear in " + ResultsH + "h " + ResultsMString + "m " + ResultsS +" s.");
+                            output = ("Next boss is " + Monster + ".\nIt will appear in " + ResultsH + "h " + ResultsMString + "m " + ResultsS +"s.");
                         }
                         else if (ResultsM == 60)
                         {
