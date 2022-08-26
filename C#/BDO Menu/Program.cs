@@ -8,7 +8,7 @@ namespace BDOMenu
                 public static void Main(string[] args)
                 {
                     while(true)  
-                        {
+                        {   
                             DateTime dt = DateTime.UtcNow;
                             DateTime setTime = new System.DateTime(01,01,01);
                             string dtUtc = dt.ToString("HH:mm"); 
@@ -37,6 +37,12 @@ namespace BDOMenu
                                     case 3:
                                     Environment.Exit(0);
                                     break;
+
+                                    default:
+                                    Console.WriteLine("Entry not valid. Please press enter to continue.");
+                                    Console.ReadKey();
+                                    Console.Clear();
+                                    continue;
                                 }
                         }   
                 }
@@ -46,7 +52,7 @@ namespace BDOMenu
                 static string TimeTable(int Date)
                     {
                         DateTime currentTime = DateTime.UtcNow;
-                        string currentTimeHourToString = currentTime.ToString("hh");
+                        string currentTimeHourToString = currentTime.ToString("HH");
                             int CTTI = Convert.ToInt32(currentTimeHourToString);
                         string currentTimeMinuteToString = currentTime.ToString("mm");
                             int CTMI = Convert.ToInt32(currentTimeMinuteToString);
@@ -62,27 +68,27 @@ namespace BDOMenu
                         {
                             case var expresson when (17 > CTTI && CTTI >= 14):
                                 ResultsH = (16 - CTTI);
-                                ResultsM = (60 - CTMI);
+                                ResultsM = (59 - CTMI);
                                 time = 1;
                                 break;
                             case var expresson when (21 > CTTI && CTTI >= 17):
                                 ResultsH = 20 - CTTI;
-                                ResultsM = 60 - CTMI;
+                                ResultsM = 59 - CTMI;
                                 time = 2;
                                 break;
                             case var expresson when (24 > CTTI && CTTI >= 21):
                                 ResultsH = 23 - CTTI;
-                                ResultsM = 60 - CTMI;
+                                ResultsM = 59 - CTMI;
                                 time = 3;
                                 break;
-                            case var expresson when (03 > CTTI && CTTI >= 24):
+                            case var expresson when (03 > CTTI || CTTI >= 24):
                                 ResultsH = 02 - CTTI;
-                                ResultsM = 60 - CTMI;
+                                ResultsM = 59 - CTMI;
                                 time = 4;
                                 break;
                             case var expresson when (04 > CTTI && CTTI >= 03):
                                 ResultsH = 03 - CTTI;
-                                ResultsM = (15 - CTMI);
+                                ResultsM = (14 - CTMI);
                                     if (CTTI == 15)
                                     {
                                         time = 5;
@@ -92,7 +98,7 @@ namespace BDOMenu
                                 break;
                             case var expresson when (05 > CTTI && CTTI >= 04):
                                 ResultsH = 04 - CTTI;
-                                ResultsM = 15 - CTMI;
+                                ResultsM = 14 - CTMI;
                                     if (CTTI == 15)
                                     {
                                         time = 6;
@@ -100,7 +106,7 @@ namespace BDOMenu
                                 break;
                             case var expresson when (07 > CTTI && CTTI >= 05):
                                 ResultsH = 06 - CTTI;
-                                ResultsM = 15 - CTMI;
+                                ResultsM = 14 - CTMI;
                                     if (CTTI == 15)
                                     {
                                         time = 7;
@@ -108,12 +114,12 @@ namespace BDOMenu
                                 break;
                             case var expresson when (10 > CTTI && CTTI >= 07):
                                 ResultsH = 09 - CTTI;
-                                ResultsM = 60 - CTMI;
+                                ResultsM = 59 - CTMI;
                                 time = 8;
                                 break;
                             case var expresson when (14 > CTTI && CTTI >= 10):
                                 ResultsH = (13 - CTTI);
-                                ResultsM = (60 - CTMI);
+                                ResultsM = (59 - CTMI);
                                 time = 0;
                                 break;
                         }
@@ -354,11 +360,11 @@ namespace BDOMenu
                         }
 
                         var ResultsMString = ResultsM.ToString("00");
-                        string output = ("Next boss is " + Monster + ".\nIt will appear in " + ResultsH + " h " + ResultsM + " m " + ResultsS +" s.");
+                        string output = ("Next boss is " + Monster + ".\nIt will appear in " + ResultsH + "h " + ResultsM + "m " + ResultsS +"s.");
 
                         if (ResultsM < 10)
                         {
-                            output = ("Next boss is " + Monster + ".\nIt will appear in " + ResultsH + "h " + ResultsMString + "m " + ResultsS +" s.");
+                            output = ("Next boss is " + Monster + ".\nIt will appear in " + ResultsH + "h " + ResultsMString + "m " + ResultsS +"s.");
                         }
                         else if (ResultsM == 60)
                         {
@@ -406,8 +412,10 @@ namespace BDOMenu
                         string output = String.Format("\nThe total price of your product is ${0:C2}\nPress any key to continue...", Convert.ToInt32(value));
                         Console.Write(output);
                         Console.ReadKey();
+                        Console.Clear();
 
                     }
+                
             }
         
     }
