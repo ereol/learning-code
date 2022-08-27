@@ -81,7 +81,7 @@ namespace BDOMenu
                                 ResultsM = 59 - CTMI;
                                 time = 3;
                                 break;
-                            case var expresson when (03 > CTTI || CTTI >= 24):
+                            case var expresson when (03 > CTTI && CTTI >= 0):
                                 ResultsH = 02 - CTTI;
                                 ResultsM = 59 - CTMI;
                                 time = 4;
@@ -89,7 +89,7 @@ namespace BDOMenu
                             case var expresson when (04 > CTTI && CTTI >= 03):
                                 ResultsH = 03 - CTTI;
                                 ResultsM = (14 - CTMI);
-                                    if (CTTI == 15)
+                                    if (CTTI >= 15)
                                     {
                                         time = 5;
                                         break;
@@ -99,7 +99,7 @@ namespace BDOMenu
                             case var expresson when (05 > CTTI && CTTI >= 04):
                                 ResultsH = 04 - CTTI;
                                 ResultsM = 14 - CTMI;
-                                    if (CTTI == 15)
+                                    if (CTTI >= 15)
                                     {
                                         time = 6;
                                     }
@@ -142,8 +142,14 @@ namespace BDOMenu
                                     Monster = "Garmoth";
                                     break;
                                 case 4:
+                                    ResultsH = 02 - CTTI;
+                                    ResultsM = 59 - CTMI;                                
+                                    goto case 6;
                                     break;
                                 case 5:
+                                    goto case 6;
+                                    ResultsH = 03 - CTTI;
+                                    ResultsM = (14 - CTMI);
                                     break;
                                 case 6:
                                     Monster = "Nouver/Kutum";
@@ -177,6 +183,9 @@ namespace BDOMenu
                                     Monster = "Kzarka/Nouver";
                                     break;
                                 case 5:
+                                    ResultsH = 03 - CTTI;
+                                    ResultsM = (14 - CTMI);                                
+                                    goto case 6;
                                     break;
                                 case 6:
                                     Monster = "Karanda/Kutum";
@@ -210,6 +219,7 @@ namespace BDOMenu
                                     Monster = "Kzarka";
                                     break;
                                 case 5:
+                                    goto case 6;
                                     break;
                                 case 6:
                                     Monster = "Karanda";
@@ -243,6 +253,9 @@ namespace BDOMenu
                                     Monster = "Garmoth";
                                     break;
                                 case 5:
+                                    ResultsH = 03 - CTTI;
+                                    ResultsM = (14 - CTMI);                                
+                                    goto case 6;
                                     break;
                                 case 6:
                                     Monster = "Kzarka/Kutum";
@@ -310,6 +323,9 @@ namespace BDOMenu
                                     Monster = "Garmoth";
                                     break;
                                 case 5:
+                                    ResultsH = 03 - CTTI;
+                                    ResultsM = (14 - CTMI);                                
+                                    goto case 6;
                                     break;
                                 case 6:
                                     Monster = "Karanda/Kzarka";
@@ -343,6 +359,9 @@ namespace BDOMenu
                                     Monster = "Kutum/Kzarka";
                                     break;
                                 case 5:
+                                    ResultsH = 03 - CTTI;
+                                    ResultsM = (14 - CTMI);                                
+                                    goto case 6;
                                     break;
                                 case 6:
                                     Monster = "Karanda";
