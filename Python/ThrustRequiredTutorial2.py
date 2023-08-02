@@ -136,7 +136,7 @@ ax4.set_ylabel('Power Required, kW')
 
 plt.show()
 
-
+input('Press any key to STOP')
 
 
 
