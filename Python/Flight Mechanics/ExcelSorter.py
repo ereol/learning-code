@@ -1,5 +1,5 @@
 def numberSorter(note):
-    print('Total number of rows: '+str(note.max_row)+'. And total number of columns: '+str(note.max_column))
+    # print('Total number of rows: '+str(note.max_row)+'. And total number of columns: '+str(note.max_column))
 
     i = 1
     f = 1

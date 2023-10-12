@@ -15,14 +15,15 @@ note3 = data3.active
 note4 = data4.active
 note5 = data5.active
 
-notes = [ note0, note1, note2, note3, note4, note5]
+notes = [note0, note1, note2, note3, note4, note5]
 
 
 i = 1
-for value in (notes):
+for count, value in enumerate(notes):
+
     x = ExS.numberSorter(value)
-    print("Sheet" + str(i))
-    print(x)
+    print("Sheet" + str(count) + ": [" + str(x) + "]")
+    print('Total number of rows: '+str(value.max_row)+'. And total number of columns: '+str(value.max_column) +"\n")
     i+=1
 
 
