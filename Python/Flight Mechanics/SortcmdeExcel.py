@@ -22,7 +22,7 @@ i = 1
 for count, value in enumerate(notes):
 
     x = ExS.numberSorter(value)
-    print("Sheet" + str(count) + ": [" + str(x) + "]")
+    print("Sheet " + str(count+1) + ": [" + str(x) + "]")
     print('Total number of rows: '+str(value.max_row)+'. And total number of columns: '+str(value.max_column) +"\n")
     i+=1
 
