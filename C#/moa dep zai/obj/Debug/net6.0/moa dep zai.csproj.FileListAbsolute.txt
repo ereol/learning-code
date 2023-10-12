@@ -1,0 +1,15 @@
+D:\Desktop\Personal\Private\Coding\learning-code\C#\moa dep zai\bin\Debug\net6.0\moa dep zai.exe
+D:\Desktop\Personal\Private\Coding\learning-code\C#\moa dep zai\bin\Debug\net6.0\moa dep zai.deps.json
+D:\Desktop\Personal\Private\Coding\learning-code\C#\moa dep zai\bin\Debug\net6.0\moa dep zai.runtimeconfig.json
+D:\Desktop\Personal\Private\Coding\learning-code\C#\moa dep zai\bin\Debug\net6.0\moa dep zai.dll
+D:\Desktop\Personal\Private\Coding\learning-code\C#\moa dep zai\bin\Debug\net6.0\moa dep zai.pdb
+D:\Desktop\Personal\Private\Coding\learning-code\C#\moa dep zai\obj\Debug\net6.0\moa dep zai.csproj.AssemblyReference.cache
+D:\Desktop\Personal\Private\Coding\learning-code\C#\moa dep zai\obj\Debug\net6.0\moa dep zai.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Personal\Private\Coding\learning-code\C#\moa dep zai\obj\Debug\net6.0\moa dep zai.AssemblyInfoInputs.cache
+D:\Desktop\Personal\Private\Coding\learning-code\C#\moa dep zai\obj\Debug\net6.0\moa dep zai.AssemblyInfo.cs
+D:\Desktop\Personal\Private\Coding\learning-code\C#\moa dep zai\obj\Debug\net6.0\moa dep zai.csproj.CoreCompileInputs.cache
+D:\Desktop\Personal\Private\Coding\learning-code\C#\moa dep zai\obj\Debug\net6.0\moa dep zai.dll
+D:\Desktop\Personal\Private\Coding\learning-code\C#\moa dep zai\obj\Debug\net6.0\refint\moa dep zai.dll
+D:\Desktop\Personal\Private\Coding\learning-code\C#\moa dep zai\obj\Debug\net6.0\moa dep zai.pdb
+D:\Desktop\Personal\Private\Coding\learning-code\C#\moa dep zai\obj\Debug\net6.0\moa dep zai.genruntimeconfig.cache
+D:\Desktop\Personal\Private\Coding\learning-code\C#\moa dep zai\obj\Debug\net6.0\ref\moa dep zai.dll
