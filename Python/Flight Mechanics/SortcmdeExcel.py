@@ -15,12 +15,14 @@ note3 = data3.active
 note4 = data4.active
 note5 = data5.active
 
+notes = [ note0, note1, note2, note3, note4, note5]
 
-x = ExS.numberSorter(note)
 
-i = 0
-for i in (5):
-    print(i +" :"+x)
+i = 1
+for value in (notes):
+    x = ExS.numberSorter(value)
+    print("Sheet" + str(i))
+    print(x)
     i+=1
 
 
