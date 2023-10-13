@@ -1,3 +1,4 @@
+
 import openpyxl
 import ExcelSorter as ExS
 
@@ -22,5 +23,5 @@ notes = [note0, note1, note2, note3, note4, note5, note6]
 for count, value in enumerate(notes):
 
     x = ExS.numberSorter(value)
-    print("Sheet " + str(count+1) + ": [" + str(x) + "]")
+    print("Sheet " + str(count+1) + ": [" + str(x[1]) + "]")
     print('Total number of rows: '+str(value.max_row)+'. And total number of columns: '+str(value.max_column) +"\n")
