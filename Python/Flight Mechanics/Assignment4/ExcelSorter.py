@@ -14,7 +14,7 @@ def numberSorter(note):
         drag+=(note.cell(row=i,column=2).value)
         sting+=((note.cell(row=i,column=2).value)-(ws.cell(row=i,column=2).value))
         i+=1
-    
+    i=1
     for i in range(1,note.max_row):
         pitchm+=(note.cell(row=i,column=4).value)
         i+=1
