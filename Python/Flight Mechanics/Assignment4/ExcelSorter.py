@@ -6,7 +6,6 @@ def numberSorter(note):
     ws = data.active
 
     i = 1
-    f = 1
     drag = 0
     pitchm = 0
     sting = 0
