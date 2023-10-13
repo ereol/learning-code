@@ -20,7 +20,6 @@ note5 = data5.active
 notes = [note0, note1, note2, note3, note4, note5]
 
 print("[AoA = 0]\n")
-
 FinalFunc.Calculation(notes)
 
 
