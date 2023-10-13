@@ -10,16 +10,6 @@ def numberSorter(note):
     drag = 0
     pitchm = 0
     sting = 0
-    # for f in range(1,note.max_column):
-    #     for i in range(1,note.max_row):
-    #         x+=note.cell(row=i,column=f).value
-
-    #         i+=1
-    #     f+=1
-
-    # x /= (note.max_row * note.max_column)
-    # return(x)
-
 
     for i in range(1,note.max_row):
         drag+=(note.cell(row=i,column=2).value)
