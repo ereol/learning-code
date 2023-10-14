@@ -3,12 +3,12 @@ import ExcelSorter as ExS
 import FinalFunc
 
 
-data0 = openpyxl.load_workbook('D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_0_Elev_Varying/alpha_0_elev_0.xlsx')
-data1 = openpyxl.load_workbook('D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_0_Elev_Varying/alpha_0_elev_4.xlsx')
-data2 = openpyxl.load_workbook('D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_0_Elev_Varying/alpha_0_elev_7.xlsx')
-data3 = openpyxl.load_workbook('D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_0_Elev_Varying/alpha_0_elev_minus4.xlsx')
-data4 = openpyxl.load_workbook('D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_0_Elev_Varying/alpha_0_elev_minus7.xlsx')
-data5 = openpyxl.load_workbook('D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_0_Elev_Varying/alpha_0_elev_minus14.xlsx')
+data0 = openpyxl.load_workbook(r'D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_0_Elev_Varying/alpha_0_elev_0.xlsx')
+data1 = openpyxl.load_workbook(r'D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_0_Elev_Varying/alpha_0_elev_4.xlsx')
+data2 = openpyxl.load_workbook(r'D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_0_Elev_Varying/alpha_0_elev_7.xlsx')
+data3 = openpyxl.load_workbook(r'D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_0_Elev_Varying/alpha_0_elev_minus4.xlsx')
+data4 = openpyxl.load_workbook(r'D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_0_Elev_Varying/alpha_0_elev_minus7.xlsx')
+data5 = openpyxl.load_workbook(r'D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_0_Elev_Varying/alpha_0_elev_minus14.xlsx')
 
 note0 = data0.active
 note1 = data1.active
@@ -23,12 +23,12 @@ print("[AoA = 0]\n")
 FinalFunc.Calculation(notes)
 
 
-data0 = openpyxl.load_workbook('D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_8_Elev_Varying/alpha_8_elev_0.xlsx')
-data1 = openpyxl.load_workbook('D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_8_Elev_Varying/alpha_8_elev_4.xlsx')
-data2 = openpyxl.load_workbook('D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_8_Elev_Varying/alpha_8_elev_7.xlsx')
-data3 = openpyxl.load_workbook('D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_8_Elev_Varying/alpha_8_elev_minus4.xlsx')
-data4 = openpyxl.load_workbook('D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_8_Elev_Varying/alpha_8_elev_minus7.xlsx')
-data5 = openpyxl.load_workbook('D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_8_Elev_Varying/alpha_8_elev_minus14.xlsx')
+data0 = openpyxl.load_workbook(r'D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_8_Elev_Varying/alpha_8_elev_0.xlsx')
+data1 = openpyxl.load_workbook(r'D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_8_Elev_Varying/alpha_8_elev_4.xlsx')
+data2 = openpyxl.load_workbook(r'D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_8_Elev_Varying/alpha_8_elev_7.xlsx')
+data3 = openpyxl.load_workbook(r'D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_8_Elev_Varying/alpha_8_elev_minus4.xlsx')
+data4 = openpyxl.load_workbook(r'D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_8_Elev_Varying/alpha_8_elev_minus7.xlsx')
+data5 = openpyxl.load_workbook(r'D:/Desktop/Academic/2023/Semester 2/AERO - Flight Dynamics/Alpha_8_Elev_Varying/alpha_8_elev_minus14.xlsx')
 
 note0 = data0.active
 note1 = data1.active
