@@ -91,17 +91,17 @@ namespace cong_2_ma_tran
         }
         static void TinhTong2MaTran(int[,]a, int[,]b)
         {
-            int[,] x;
+        
             if (a.GetLength(0) != b.GetLength(0) || a.GetLength(1) != b.GetLength(1))
             {
                 Environment.Exit(0);
             }
 
 
-            int[,]c = new int[x.GetLength(0), x.GetLength(1)];
-            for (int i = 0;i < x.GetLength(0); i++)
+            int[,]c = new int[a.GetLength(0), b.GetLength(1)];
+            for (int i = 0;i < a.GetLength(0); i++)
             {
-                for (int j = 0; j < x.GetLength(1);j++)
+                for (int j = 0; j < b.GetLength(1);j++)
                 {
                     c[i,j] = a[i,j] + b[i,j];                         
                 }
