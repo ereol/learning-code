@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desktop\\Personal\\Private\\Coding\\learning-code\\C#\\moa dep zai\\moa dep zai.csproj": {}
+    "D:\\Documents\\Desktop\\Personal\\Private\\Coding\\learning-code\\C#\\moa dep zai\\moa dep zai.csproj": {}
   },
   "projects": {
-    "D:\\Desktop\\Personal\\Private\\Coding\\learning-code\\C#\\moa dep zai\\moa dep zai.csproj": {
+    "D:\\Documents\\Desktop\\Personal\\Private\\Coding\\learning-code\\C#\\moa dep zai\\moa dep zai.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\Personal\\Private\\Coding\\learning-code\\C#\\moa dep zai\\moa dep zai.csproj",
+        "projectUniqueName": "D:\\Documents\\Desktop\\Personal\\Private\\Coding\\learning-code\\C#\\moa dep zai\\moa dep zai.csproj",
         "projectName": "moa dep zai",
-        "projectPath": "D:\\Desktop\\Personal\\Private\\Coding\\learning-code\\C#\\moa dep zai\\moa dep zai.csproj",
+        "projectPath": "D:\\Documents\\Desktop\\Personal\\Private\\Coding\\learning-code\\C#\\moa dep zai\\moa dep zai.csproj",
         "packagesPath": "C:\\Users\\morri\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\Personal\\Private\\Coding\\learning-code\\C#\\moa dep zai\\obj\\",
+        "outputPath": "D:\\Documents\\Desktop\\Personal\\Private\\Coding\\learning-code\\C#\\moa dep zai\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\morri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
